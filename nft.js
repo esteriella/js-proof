@@ -28,7 +28,6 @@ function mintNFT(nftName, description, imageUrl) {
 // and print their metadata with console.log()
 function listNFTs () {
     nfts.forEach((nft, index) => {
-        console.log("============================");
         console.log(`NFT ${index + 1}:`);
         console.log("Name:", nft.name);
         console.log("Description:", nft.description);
@@ -39,7 +38,7 @@ function listNFTs () {
 
 // print the total number of NFTs we have minted to the console
 function getTotalSupply() {
-    console.log("Total NFTs:", nfts.length);
+    console.log("Total Supply of NFTs:", nfts.length);
 }
 
 // call your functions below this line
